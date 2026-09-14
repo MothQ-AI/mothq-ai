@@ -19,8 +19,8 @@ mothq-prototype/worker/
 accounts.txt
 
 # Legacy root files retained locally; the current entrypoint loads /assets.
-script.js
-styles.css
+/script.js
+/styles.css
 
 # Operating-system files
 .DS_Store
