@@ -1,0 +1,27 @@
+# Dependencies and generated build output
+node_modules/
+mothq-prototype/node_modules/
+mothq-prototype/dist/
+.vite/
+
+# Local Codex/Sites scaffolding; not part of the public web repository.
+mothq-prototype/.openai/
+mothq-prototype/AGENTS.md
+mothq-prototype/design-qa.md
+mothq-prototype/scripts/
+mothq-prototype/tests/
+mothq-prototype/worker/
+
+# Local configuration and account notes
+.env
+.env.*
+!.env.example
+accounts.txt
+
+# Legacy root files retained locally; the current entrypoint loads /assets.
+script.js
+styles.css
+
+# Operating-system files
+.DS_Store
+Thumbs.db
